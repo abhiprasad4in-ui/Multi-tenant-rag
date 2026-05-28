@@ -1,0 +1,8 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "roots": ["<rootDir>/src/tests"],
+  "testMatch": ["**/*.test.ts"],
+  "collectCoverageFrom": ["src/**/*.ts", "!src/tests/**"],
+  "setupFiles": ["<rootDir>/src/tests/setup.ts"]
+}
